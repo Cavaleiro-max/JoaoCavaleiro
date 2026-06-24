@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Flutter",
+    "completed": true
+  },
+
+  {
+    "title": "Python",
+    "completed": true
+  },
+
+  {
+    "title": "Firebase",
+    "completed": true
+  },
+
+  {
+    "title": "Supabase",
+    "completed": true
+  },
+
+  {
+    "title": "Arquitetura de Software",
+    "completed": true
+  },
+
+  {
+    "title": "Electron",
+    "completed": false
+  },
+
+  {
+    "title": "ESP32",
+    "completed": false
+  },
+
+  {
+    "title": "IoT",
+    "completed": false
+  },
+
+  {
+    "title": "Inteligência Artificial",
+    "completed": false
+  }
+]
