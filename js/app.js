@@ -1,64 +1,33 @@
-async function loadProfile() {
+async function loadProfile(){
 
     const response =
-    await fetch("data/profile.json");
+    await fetch(
+        "data/profile.json"
+    );
 
     const profile =
     await response.json();
 
-    document.getElementById("name")
-        .textContent =
-        profile.name;
-
-    document.getElementById("subtitle")
-        .textContent =
-        profile.subtitle;
-
-    buildContact(profile);
-
-    buildStats(profile);
-}
-
-function buildContact(profile){
-
-    const container =
     document.getElementById(
-        "contactContainer"
-    );
+        "name"
+    ).textContent =
+    profile.name;
 
-    container.innerHTML = `
+    document.getElementById(
+        "subtitle"
+    ).textContent =
+    profile.subtitle;
 
-    <a class="contact-link"
-    href="${profile.github}"
-    target="_blank">
+    document.getElementById(
+        "avatar"
+    ).src =
+    profile.avatar;
 
-    GitHub
+    document.getElementById(
+        "cvBtn"
+    ).href =
+    profile.cv;
 
-    </a>
-
-    <a class="contact-link"
-    href="${profile.linkedin}"
-    target="_blank">
-
-    LinkedIn
-
-    </a>
-
-    <a class="contact-link"
-    href="mailto:${profile.email}">
-
-    ${profile.email}
-
-    </a>
-
-    <a class="contact-link"
-    href="https://wa.me/${profile.whatsapp.replace('+','')}">
-
-    WhatsApp
-
-    </a>
-
-    `;
 }
 
 loadProfile();
