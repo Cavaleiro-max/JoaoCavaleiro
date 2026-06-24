@@ -25,6 +25,21 @@
   },
 
   {
+  "title": "Git",
+  "completed": true
+  },
+  
+  {
+    "title": "GitHub",
+    "completed": true
+  },
+  
+  {
+    "title": "PWA",
+    "completed": true
+  },
+  
+  {
     "title": "Electron",
     "completed": false
   },
