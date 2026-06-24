@@ -1,26 +1,48 @@
 <!DOCTYPE html>
+
 <html lang="pt">
 
 <head>
 
 <meta charset="UTF-8">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1">
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
 
-<title>João Cavaleiro</title>
+<meta
+name="description"
+content="Portfólio profissional de João Cavaleiro">
 
-<link rel="stylesheet"
+<meta
+name="theme-color"
+content="#0b0f17">
+
+<title>
+João Cavaleiro | Software Developer
+</title>
+
+<link
+rel="icon"
+href="assets/favicon.png">
+
+<link
+rel="stylesheet"
 href="css/main.css">
 
 </head>
 
 <body>
+
+<!-- BACKGROUND -->
+
 <div class="bg-grid"></div>
 
 <div class="bg-glow glow-1"></div>
 <div class="bg-glow glow-2"></div>
 <div class="bg-glow glow-3"></div>
+
+<!-- HERO -->
 
 <header id="hero">
 
@@ -28,35 +50,45 @@ href="css/main.css">
 
 <img
 id="avatar"
-src="assets/avatar.png">
+src="assets/avatar.png"
+alt="João Cavaleiro">
 
 <h1 id="name">
+
 Carregando...
+
 </h1>
 
 <p id="subtitle">
+
 Carregando...
+
 </p>
 
 <div class="typing-container">
 
-    <span id="typingText"></span>
+<span id="typingText"></span>
 
 </div>
 
 <div class="hero-buttons">
 
-<a href="#projects">
+<a href="#featured-projects">
+
 Projetos
+
 </a>
 
-<a
-id="cvBtn">
-CV
+<a id="cvBtn">
+
+Currículo
+
 </a>
 
 <a href="#contact">
-Contato
+
+Contacto
+
 </a>
 
 </div>
@@ -65,11 +97,45 @@ Contato
 
 </header>
 
-<section id="thinking">
+<!-- HIGHLIGHTS -->
+
+<section id="highlights">
+
+<div class="section-header">
 
 <h2>
-Como Eu Penso
+
+Destaques
+
 </h2>
+
+<p>
+
+Indicadores gerados automaticamente.
+
+</p>
+
+</div>
+
+<div id="highlightsContainer">
+
+</div>
+
+</section>
+
+<!-- THINKING -->
+
+<section id="thinking">
+
+<div class="section-header">
+
+<h2>
+
+Como Eu Penso
+
+</h2>
+
+</div>
 
 <div class="thinking-card">
 
@@ -88,7 +154,8 @@ while(alive){
 <p>
 
 Transformando curiosidade em software,
-software em soluções e soluções em impacto.
+software em soluções
+e soluções em impacto.
 
 </p>
 
@@ -96,11 +163,45 @@ software em soluções e soluções em impacto.
 
 </section>
 
-<section id="stats">
+<!-- BUILDING -->
+
+<section id="building">
+
+<div class="section-header">
 
 <h2>
-Estatísticas
+
+O Que Estou a Construir
+
 </h2>
+
+<p>
+
+Projetos e objetivos atuais.
+
+</p>
+
+</div>
+
+<div id="buildingContainer">
+
+</div>
+
+</section>
+
+<!-- STATS -->
+
+<section id="stats">
+
+<div class="section-header">
+
+<h2>
+
+Estatísticas
+
+</h2>
+
+</div>
 
 <div id="statsContainer">
 
@@ -108,11 +209,19 @@ Estatísticas
 
 </section>
 
+<!-- SKILLS -->
+
 <section id="skills">
 
+<div class="section-header">
+
 <h2>
+
 Competências
+
 </h2>
+
+</div>
 
 <div id="skillsContainer">
 
@@ -120,33 +229,39 @@ Competências
 
 </section>
 
-<section id="projects">
-
-<h2>
-Projetos
-</h2>
-
-<div id="projectsContainer">
-
-</div>
-
-</section>
+<!-- ROADMAP -->
 
 <section id="roadmap">
 
+<div class="section-header">
+
 <h2>
-Roadmap
+
+Roadmap Tecnológico
+
 </h2>
+
+</div>
 
 <div id="roadmapContainer">
 
 </div>
 
+</section>
+
+<!-- JOURNEY -->
+
 <section id="journey">
 
+<div class="section-header">
+
 <h2>
+
 Jornada
+
 </h2>
+
+</div>
 
 <div id="journeyContainer">
 
@@ -154,19 +269,180 @@ Jornada
 
 </section>
 
+<!-- FEATURED PROJECTS -->
+
+<section id="featured-projects">
+
+<div class="section-header">
+
+<h2>
+
+Projetos em Destaque
+
+</h2>
+
+<p>
+
+Os projetos mais representativos.
+
+</p>
+
+</div>
+
+<div id="featuredProjectsContainer">
+
+</div>
+
 </section>
+
+<!-- ALL PROJECTS -->
+
+<section id="projects">
+
+<div class="section-header">
+
+<h2>
+
+Todos os Projetos
+
+</h2>
+
+</div>
+
+<div id="projectsContainer">
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
 
 <section id="contact">
 
+<div class="section-header">
+
 <h2>
-Contato
+
+Contacto
+
 </h2>
+
+</div>
 
 <div id="contactContainer">
 
 </div>
 
 </section>
+
+<!-- ACCESS MODAL -->
+
+<div
+id="accessModal"
+class="modal hidden">
+
+<div class="modal-content">
+
+<button
+id="closeModal"
+class="close-btn">
+
+×
+
+</button>
+
+<h2>
+
+Solicitar Acesso
+
+</h2>
+
+<form
+id="accessForm">
+
+<input
+type="text"
+id="requestName"
+placeholder="Nome"
+required>
+
+<input
+type="email"
+id="requestEmail"
+placeholder="Email"
+required>
+
+<input
+type="text"
+id="requestCompany"
+placeholder="Empresa">
+
+<input
+type="text"
+id="requestRole"
+placeholder="Cargo">
+
+<textarea
+id="requestReason"
+placeholder="Motivo do pedido"
+required></textarea>
+
+<input
+type="hidden"
+id="projectName">
+
+<button
+type="submit">
+
+Enviar Pedido
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-content">
+
+<h3>
+
+João Cavaleiro
+
+</h3>
+
+<p>
+
+Software Developer • Flutter • Python
+
+</p>
+
+<p>
+
+Aprender • Construir • Evoluir
+
+</p>
+
+</div>
+
+</footer>
+
+<!-- LOADER -->
+
+<div id="loader">
+
+<div class="loader-spinner">
+
+</div>
+
+</div>
+
+<!-- SCRIPTS -->
 
 <script src="js/app.js"></script>
 
@@ -175,6 +451,12 @@ Contato
 <script src="js/projects.js"></script>
 
 <script src="js/animations.js"></script>
+
+<script src="js/highlights.js"></script>
+
+<script src="js/building.js"></script>
+
+<script src="js/access.js"></script>
 
 </body>
 
