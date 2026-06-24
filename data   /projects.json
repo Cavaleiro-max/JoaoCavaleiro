@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Buka+",
+
+    "category": "Biblioteca Digital",
+
+    "description": "Biblioteca digital moderna para estudantes e profissionais.",
+
+    "status": "Online",
+
+    "image": "assets/projects/buka.webp",
+
+    "demo": "",
+
+    "requestAccess": true
+  },
+
+  {
+    "name": "Candengue Conecta",
+
+    "category": "Educação",
+
+    "description": "Sistema de gestão e comunicação escolar.",
+
+    "status": "Em Desenvolvimento",
+
+    "image": "assets/projects/candengue.webp",
+
+    "demo": "",
+
+    "requestAccess": true
+  },
+
+  {
+    "name": "KzEduca",
+
+    "category": "Educação Financeira",
+
+    "description": "Plataforma de educação financeira.",
+
+    "status": "Beta",
+
+    "image": "assets/projects/kzeduca.webp",
+
+    "demo": "",
+
+    "requestAccess": true
+  },
+
+  {
+    "name": "ImportWise",
+
+    "category": "Gestão",
+
+    "description": "Ferramenta inteligente para gestão de importações.",
+
+    "status": "Planeado",
+
+    "image": "assets/projects/importwise.webp",
+
+    "demo": "",
+
+    "requestAccess": true
+  },
+
+  {
+    "name": "Kulonga",
+
+    "category": "Educação",
+
+    "description": "Aplicação educativa moderna para aprendizagem.",
+
+    "status": "Planeado",
+
+    "image": "assets/projects/kulonga.webp",
+
+    "demo": "",
+
+    "requestAccess": true
+  },
+
+  {
+    "name": "Nexus Qi",
+
+    "category": "Produtividade",
+
+    "description": "Sistema focado em organização e produtividade.",
+
+    "status": "Planeado",
+
+    "image": "assets/projects/nexusqi.webp",
+
+    "demo": "",
+
+    "requestAccess": true
+  }
+]
