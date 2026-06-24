@@ -205,3 +205,106 @@ async function loadJourney(){
     });
 
 }
+
+async function loadFeaturedProjects(){
+
+    const response =
+    await fetch(
+        "data/projects.json"
+    );
+
+    const projects =
+    await response.json();
+
+    const featured =
+    projects.filter(
+        p => p.featured
+    );
+
+    const container =
+    document.getElementById(
+        "featuredProjectsContainer"
+    );
+
+    if(!container) return;
+
+    container.innerHTML = "";
+
+    featured.forEach(project => {
+
+        container.innerHTML += `
+
+        <div class="featured-card">
+
+            <img
+            src="${project.image}"
+            alt="${project.name}">
+
+            <div class="featured-content">
+
+                <span class="featured-status">
+
+                    ${project.status}
+
+                </span>
+
+                <h3>
+
+                    ${project.name}
+
+                </h3>
+
+                <p>
+
+                    ${project.description}
+
+                </p>
+
+                <div class="project-actions">
+
+                    ${
+                        project.demo
+                        ?
+                        `
+                        <a
+                        href="${project.demo}"
+                        target="_blank"
+                        class="demo-btn">
+
+                        Ver Demo
+
+                        </a>
+                        `
+                        :
+                        ""
+                    }
+
+                    ${
+                        project.requestAccess
+                        ?
+                        `
+                        <button
+                        class="request-btn"
+                        onclick="openAccessModal('${project.name}')">
+
+                        Solicitar Acesso
+
+                        </button>
+                        `
+                        :
+                        ""
+                    }
+
+                </div>
+
+            </div>
+
+        </div>
+
+        `;
+
+    });
+
+}
+
+loadFeaturedProjects();
