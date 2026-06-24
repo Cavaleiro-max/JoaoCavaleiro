@@ -1,96 +1,139 @@
 [
   {
     "name": "Buka+",
-
+    "version": "1.0.0",
+    "featured": true,
     "category": "Biblioteca Digital",
-
-    "description": "Biblioteca digital moderna para estudantes e profissionais.",
-
+    "description": "Biblioteca digital angolana moderna focada em leitura, aprendizagem e acesso simplificado ao conhecimento.",
     "status": "Online",
-
     "image": "assets/buka_logo.png",
 
-    "demo": "",
+    "tech": [
+      "Flutter",
+      "Firebase",
+      "PWA"
+    ],
+
+    "demo_web": "",
+    "android": "",
+    "ios": "",
+    "windows": "",
+    "linux": "",
 
     "requestAccess": true
   },
 
   {
     "name": "Candengue Conecta",
-
+    "version": "1.0.0",
+    "featured": true,
     "category": "Educação",
-
-    "description": "Sistema de gestão e comunicação escolar.",
-
+    "description": "Sistema inteligente de gestão escolar e comunicação entre escolas, encarregados e alunos.",
     "status": "Em Desenvolvimento",
+    "image": "assets/placeholder.png",
 
-    "image": "",
+    "tech": [
+      "Flutter",
+      "Supabase",
+      "PWA"
+    ],
 
-    "demo": "",
+    "demo_web": "",
+    "android": "",
+    "ios": "",
+    "windows": "",
+    "linux": "",
 
     "requestAccess": true
   },
 
   {
     "name": "KzEduca",
-
+    "version": "1.0.0",
+    "featured": true,
     "category": "Educação Financeira",
-
-    "description": "Plataforma de educação financeira.",
-
+    "description": "Plataforma angolana para educação financeira, metas, poupança e literacia financeira.",
     "status": "Beta",
+    "image": "assets/placeholder.png",
 
-    "image": "",
+    "tech": [
+      "Flutter",
+      "SQLite"
+    ],
 
-    "demo": "",
+    "demo_web": "",
+    "android": "",
+    "ios": "",
+    "windows": "",
+    "linux": "",
 
     "requestAccess": true
   },
 
   {
     "name": "ImportWise",
-
+    "version": "1.0.0",
+    "featured": false,
     "category": "Gestão",
-
-    "description": "Ferramenta inteligente para gestão de importações.",
-
+    "description": "Ferramenta inteligente para apoio à gestão de importações e controlo operacional.",
     "status": "Planeado",
-
     "image": "assets/importwise.png",
 
-    "demo": "",
+    "tech": [
+      "Flutter",
+      "Python"
+    ],
+
+    "demo_web": "",
+    "android": "",
+    "ios": "",
+    "windows": "",
+    "linux": "",
 
     "requestAccess": true
   },
 
   {
     "name": "Kulonga",
-
+    "version": "1.0.0",
+    "featured": false,
     "category": "Educação",
-
-    "description": "Aplicação educativa moderna para aprendizagem.",
-
+    "description": "Aplicação educativa moderna focada na aprendizagem interactiva.",
     "status": "Planeado",
-
     "image": "assets/kulonga.png",
 
-    "demo": "",
+    "tech": [
+      "Flutter"
+    ],
+
+    "demo_web": "",
+    "android": "",
+    "ios": "",
+    "windows": "",
+    "linux": "",
 
     "requestAccess": true
   },
 
   {
     "name": "Nexus Qi",
-
+    "version": "1.0.0",
+    "featured": false,
     "category": "Produtividade",
-
-    "description": "Sistema focado em organização e produtividade.",
-
+    "description": "Sistema focado em organização, produtividade e gestão de conhecimento.",
     "status": "Planeado",
-
     "image": "assets/nexus.png",
 
-    "demo": "",
+    "tech": [
+      "Flutter",
+      "Python"
+    ],
+
+    "demo_web": "",
+    "android": "",
+    "ios": "",
+    "windows": "",
+    "linux": "",
 
     "requestAccess": true
   }
