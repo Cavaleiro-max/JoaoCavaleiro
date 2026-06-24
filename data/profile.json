@@ -1,19 +1,26 @@
 {
   "name": "João Cavaleiro",
 
-  "title": "Software Developer",
+  "title":
+  "Software Developer",
 
-  "subtitle": "Transformando curiosidade em software, software em soluções e soluções em impacto.",
+  "subtitle":
+  "Construo software, transformo ideias em produtos e procuro resolver problemas reais através da tecnologia.",
 
-  "email": "joaofurtadocavaleiro@gmail.com",
+  "startYear": 2022,
 
-  "whatsapp": "+244956138807",
+  "cv":
+  "assets/cv.pdf",
 
-  "github": "https://github.com/Cavaleiro-max",
+  "avatar":
+  "assets/avatar.png",
 
-  "linkedin": "https://www.linkedin.com/in/joao-cavaleiro/",
+  "email":
+  "joaofurtadocavaleiro@gmail.com",
 
-  "startYear": 2023,
+  "whatsapp":
+  "+244956138807",
 
-  "location": "Luanda, Angola"
+  "linkedin":
+  "https://www.linkedin.com/in/joao-cavaleiro/"
 }
