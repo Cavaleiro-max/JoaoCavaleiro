@@ -1,0 +1,31 @@
+[
+  {
+    "year":"2022",
+    "title":"Primeiros passos na programação"
+  },
+
+  {
+    "year":"2023",
+    "title":"Flutter e Python"
+  },
+
+  {
+    "year":"2024",
+    "title":"Projetos educacionais"
+  },
+
+  {
+    "year":"2025",
+    "title":"Sistemas completos"
+  },
+
+  {
+    "year":"2026",
+    "title":"Arquitetura de Software e PWAs"
+  },
+
+  {
+    "year":"Futuro",
+    "title":"IoT, ESP32, IA e Electrónica"
+  }
+]
