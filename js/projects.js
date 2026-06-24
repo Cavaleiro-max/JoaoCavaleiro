@@ -1,7 +1,7 @@
 loadSkills();
 loadProjects();
 loadRoadmap();
-
+loadJourney();
 
 // =========================
 // COMPETÊNCIAS
@@ -153,6 +153,50 @@ async function loadRoadmap(){
 
             ${icon}
             ${item.title}
+
+        </div>
+
+        `;
+
+    });
+
+}
+
+
+async function loadJourney(){
+
+    const response =
+    await fetch(
+        "data/journey.json"
+    );
+
+    const journey =
+    await response.json();
+
+    const container =
+    document.getElementById(
+        "journeyContainer"
+    );
+
+    container.innerHTML = "";
+
+    journey.forEach(item => {
+
+        container.innerHTML += `
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">
+
+                ${item.year}
+
+            </div>
+
+            <div>
+
+                ${item.title}
+
+            </div>
 
         </div>
 
