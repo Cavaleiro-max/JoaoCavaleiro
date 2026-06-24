@@ -1,0 +1,3 @@
+loadSkills();
+loadProjects();
+loadRoadmap();
